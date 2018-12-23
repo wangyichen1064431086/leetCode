@@ -43,17 +43,17 @@ var mergeTwoSortedList = (l1, l2) => {
            curNode.next = l2
            l2 = l2.next
        }
-       curNode = curNode.next
+       curNode = curNode.next //别忘了这个！！
    }
     while(l1) {
         curNode.next = l1
         l1 = l1.next
-        curNode = curNode.next
+        curNode = curNode.next // 别忘了这个！！
     }
     while(l2) {
         curNode.next = l2
         l2 = l2.next
-        curNode = curNode.next
+        curNode = curNode.next // 别忘了这个！！
     }
     return dummyHead.next
 }

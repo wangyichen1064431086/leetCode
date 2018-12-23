@@ -40,7 +40,6 @@ var levelOrder = function(root) {
     preOrderTraverseNode(root, addNodeToOneLevel, 0)
     
     return result
-    
 };
 
 

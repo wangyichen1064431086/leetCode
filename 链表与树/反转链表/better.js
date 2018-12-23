@@ -16,3 +16,5 @@ var reverseList = function(head) {
     head.next = null
     return new_head
   };
+
+// 好抽象
