@@ -3,7 +3,7 @@
  * @return {number}
  */
 var reverse = function(x) {
-    let sign = x == Math.abs(x)
+    let sign = x == Math.abs(x) //NOTE: Math.abs()返回指定数字的绝对值
     x = Math.abs(x)
     
     let rev = 0
